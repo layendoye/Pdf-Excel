@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PdfComponent } from './pdf/pdf.component';
 import { TestComponent } from './test/test.component';
+import { ExcelComponent } from './excel/excel.component';
+import { TestExcelComponent } from './test-excel/test-excel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PdfComponent,
     TestComponent,
+    ExcelComponent,
+    TestExcelComponent,
   ],
   imports: [
     BrowserModule,

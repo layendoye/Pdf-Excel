@@ -1,1 +1,3 @@
 npm install --save pdfmake
+npm install --save exceljs@1.12.0 #lien tuto https://www.ngdevelop.tech/export-to-excel-in-angular-6/
+npm install --save file-saver #toujour pour excel

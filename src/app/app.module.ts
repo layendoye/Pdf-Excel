@@ -7,6 +7,7 @@ import { PdfComponent } from './pdf/pdf.component';
 import { TestComponent } from './test/test.component';
 import { ExcelComponent } from './excel/excel.component';
 import { TestExcelComponent } from './test-excel/test-excel.component';
+import { LireExelComponent } from './lire-exel/lire-exel.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { TestExcelComponent } from './test-excel/test-excel.component';
     TestComponent,
     ExcelComponent,
     TestExcelComponent,
+    LireExelComponent,
   ],
   imports: [
     BrowserModule,
